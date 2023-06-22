@@ -5,13 +5,13 @@ O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como b
 
 ## Recursos
 
-- Butia    : Butia is a command-line utility written in C++ to move recursively files and dirs..
-- Cambuci  : Cambuci is a command-line utility written in C++ to display the contents of text files.
-- Cambui   : Cambui is a command-line utility written in C++ to view Monitor of OS.
-- Gabiroba : Gabiroba is a command-line utility written in C++ to display the contents of text files but not display line numbers.
-- Guarana  : Guarana is a command-line utility written in C++ to copy recursively files and dirs.
-- Pitanga  : Pitanga is a command-line utility written in C++ to display the seq. numbers of the Mega Sena to file.
-- Caju     : Caju is a  command-line utility written in C++ to display a ScoreBoard to command line interface.
+- Butia    : is a command-line utility written in C++ to move recursively files and dirs..
+- Cambuci  : is a command-line utility written in C++ to display the contents of text files.
+- Cambui   : is a command-line utility written in C++ to view Monitor of OS.
+- Gabiroba : is a command-line utility written in C++ to display the contents of text files but not display line numbers.
+- Guarana  : is a command-line utility written in C++ to copy recursively files and dirs.
+- Pitanga  : is a command-line utility written in C++ to display the seq. numbers of the Mega Sena to file.
+- Caju     : is a command-line utility written in C++ to display a ScoreBoard to command line interface.
 
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
