@@ -5,7 +5,7 @@ O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como b
 
 ## Recursos
 
-- Abacaxi  : is a command-line utility written in C++ to own Agenda in CLI!
+- Abacaxi  : is a command-line utility written in C++ to own ContactBook in CLI!
 - Butia    : is a command-line utility written in C++ to move recursively files and dirs..
 - Cambuci  : is a command-line utility written in C++ to display the contents of text files.
 - Cambui   : is a command-line utility written in C++ to view Monitor of OS.
