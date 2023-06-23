@@ -12,7 +12,8 @@ DIRS := \
     Guarana \
     Murici \
     Pitanga \
-    Canistel
+    Canistel \
+    Santol
 
 all:
     @for dir in $(DIRS); do \
