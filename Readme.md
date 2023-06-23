@@ -17,7 +17,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Camucamu: é uma utilidade de linha de comando escrita em C++ para controle temporário de inventário.
 - Cacau: são utilidades de linha de comando escritas em C++.
 - Cagaita: é uma utilidade de linha de comando escrita em C++ para criar senhas com 8, 16, 32, 64 ou 8192 caracteres.
-- Canistel: é uma utilidade de linha de comando escrita em RUST para contar o próximo número primo em um intervalo.
+- Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
 
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
