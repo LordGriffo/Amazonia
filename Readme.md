@@ -1,5 +1,5 @@
 # Amazonia
-![Amazonia](logo.png)
+![Amazonia](logo.png) ![Amazonia](logo2.png)
 
 ## Descrição
 O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como base para iniciar projetos. Ele fornece uma estrutura básica e um conjunto de funcionalidades mínimas, permitindo que você adicione seu próprio código e recursos.
