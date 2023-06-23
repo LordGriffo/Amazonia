@@ -24,9 +24,9 @@ git clone https://github.com/LordGriffo/Amazonia.git
 3. Aproveite!
 
 ## Requisitos do sistema
-- Sistema operacional: [Linux/Unix]
-- Linguagem de programação: [C++,But supports others like a C,RUST...]
-- Outras dependências: [GNU Compiler's,GNU make...]
+- Sistema operacional: [ Linux/Unix ]
+- Linguagem de programação: [ C++,But supports all others... ]
+- Outras dependências: [ GNU Compiler's,GNU make... ]
 
 ## Contribuição
 As contribuições são bem-vindas! Se você deseja melhorar este software, sinta-se à vontade para enviar um pull request.
