@@ -1,22 +1,24 @@
 # Amazonia
 ![Amazonia](logo.png)
+
 ## Descrição
-O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como base para iniciar projetos. Ele fornece uma estrutura básica e um conjunto de funcionalidades mínimas, permitindo que você adicione seu próprio código e recursos.
+O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como base para iniciar projetos. Ele fornece uma estrutura básica e um conjunto de funcionalidades mínimas, permitindo que você adicione seu próprio código e recursos.
 
 ## Recursos
-- Abacaxi  : is a command-line utility in C ANSI for Verification of Brazilian CPF Number.
-- Araucaria: is a command-line Micro-Games written in C++ .
-- Butia    : is a command-line utility written in C++ to move recursively files and dirs.
-- Cambuci  : is a command-line utility written in C++ to display the contents of text files.
-- Cambui   : is a command-line utility written in C++ to view Monitor of OS.
-- Gabiroba : is a command-line utility written in C++ to display the contents of text files but not display line numbers.
-- Guarana  : is a command-line utility written in C++ to copy recursively files and dirs.
-- Pitanga  : is a command-line utility written in C++ to display the seq. numbers of the Mega Sena to file.
-- Caju     : is a command-line utility written in C++ to display a ScoreBoard to command line interface.
-- Camucamu : is a command-line utility written in C++ to Temporary Inventory Control;
-- Cacau    : is a command-line utilities written in C++.
-- Cagaita  : is a command-line utility written in C++ to Create a Passwords of 8 or 16 or 32 or 64 or 8192 chars.
-- Canistel : is a command-line utility written in RUST to count the next prime number into 1 to one.
+- Abacaxi: é uma utilidade de linha de comando em C ANSI para verificação do número de CPF brasileiro.
+- Araucária: é um conjunto de microjogos de linha de comando escritos em C++.
+- Butiá: é uma utilidade de linha de comando escrita em C++ para mover recursivamente arquivos e diretórios.
+- Cambuci: é uma utilidade de linha de comando escrita em C++ para exibir o conteúdo de arquivos de texto.
+- Cambuí: é uma utilidade de linha de comando escrita em C++ para visualizar o monitor do sistema operacional.
+- Gabiroba: é uma utilidade de linha de comando escrita em C++ para exibir o conteúdo de arquivos de texto, mas sem exibir números de linha.
+- Guaraná: é uma utilidade de linha de comando escrita em C++ para copiar recursivamente arquivos e diretórios.
+- Pitanga: é uma utilidade de linha de comando escrita em C++ para exibir os números sequenciais da Mega Sena em um arquivo.
+- Caju: é uma utilidade de linha de comando escrita em C++ para exibir um placar (scoreboard) na interface de linha de comando.
+- Camucamu: é uma utilidade de linha de comando escrita em C++ para controle temporário de inventário.
+- Cacau: são utilidades de linha de comando escritas em C++.
+- Cagaita: é uma utilidade de linha de comando escrita em C++ para criar senhas com 8, 16, 32, 64 ou 8192 caracteres.
+- Canistel: é uma utilidade de linha de comando escrita em RUST para contar o próximo número primo em um intervalo.
+
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
 
@@ -27,16 +29,15 @@ git clone https://github.com/LordGriffo/Amazonia.git
 3. Aproveite!
 
 ## Requisitos do sistema
-- Sistema operacional: [ Linux/Unix ]
-- Linguagem de programação: [ C++,But supports all others... ]
-- Outras dependências: [ GNU Compiler's,GNU make... ]
+- Sistema operacional: Linux/Unix
+- Linguagem de programação: C++ (mas também suporta outras)
+- Outras dependências: Compilador GNU, make do GNU
 
 ## Contribuição
 As contribuições são bem-vindas! Se você deseja melhorar este software, sinta-se à vontade para enviar um pull request.
 
 ## Licença
-[ GNU GENERAL PUBLIC LICENSE v3]
+GNU GENERAL PUBLIC LICENSE v3
 
 ## Contato
-- Autor: [Lord Griffo]
-
+- Autor: Lord Griffo
