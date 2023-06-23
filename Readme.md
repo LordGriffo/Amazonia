@@ -4,7 +4,7 @@
 O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como base para iniciar projetos. Ele fornece uma estrutura básica e um conjunto de funcionalidades mínimas, permitindo que você adicione seu próprio código e recursos.
 
 ## Recursos
-- Abacaxi  : is a command-line utility for Verification of Brazilian CPF Number.
+- Abacaxi  : is a command-line utility in C++ for Verification of Brazilian CPF Number.
 - Araucaria: is a command-line Micro-Games written in C++ .
 - Butia    : is a command-line utility written in C++ to move recursively files and dirs.
 - Cambuci  : is a command-line utility written in C++ to display the contents of text files.
@@ -13,7 +13,7 @@ O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como b
 - Guarana  : is a command-line utility written in C++ to copy recursively files and dirs.
 - Pitanga  : is a command-line utility written in C++ to display the seq. numbers of the Mega Sena to file.
 - Caju     : is a command-line utility written in C++ to display a ScoreBoard to command line interface.
-
+- Camucamu : is a command-line utility written in C++ to Temporary Inventory Control;
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
 
