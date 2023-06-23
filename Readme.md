@@ -16,6 +16,7 @@ O Amazonia é um Pacote de varios Softwares de exemplo que pode ser usado como b
 - Camucamu : is a command-line utility written in C++ to Temporary Inventory Control;
 - Cacau    : is a command-line utilities written in C++.
 - Cagaita  : is a command-line utility written in C++ to Create a Passwords of 8 or 16 or 32 or 64 or 8192 chars.
+- Canistel : is a command-line utility written in RUST to count the next prime number into 1 to one.
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
 
