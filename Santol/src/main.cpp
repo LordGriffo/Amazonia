@@ -1,8 +1,9 @@
 #include <iostream>
+#include <iomanip>
 
-double calcularPi(int n) {
-    double pi = 0.0;
-    double sinal = 1.0;
+long double calcularPi(int n) {
+    long double pi = 0.0;
+    long double sinal = 1.0;
 
     for (int i = 0; i < n; ++i) {
         pi += sinal / (2 * i + 1);
@@ -15,8 +16,8 @@ double calcularPi(int n) {
 int main() {
     int numeroDigitos = 1000000; // Especificar o número de dígitos desejado
 
-    double pi = calcularPi(numeroDigitos);
-    std::cout.precision(50); // Configurar a precisão de saída
+    long double pi = calcularPi(numeroDigitos);
+    std::cout << std::setprecision(100); // Configurar a precisão de saída para 100 dígitos
     std::cout << "Valor aproximado de Pi: " << pi << std::endl;
 
     return 0;
