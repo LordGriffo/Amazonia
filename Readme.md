@@ -21,7 +21,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer!
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens!
 - Tucumã : é um conjunto de templates para Projetos Futuros!
-- Jaboticaba : é um jogo da forca escrito em PYTHON3.
+- Jaboticaba : é um jogo da forca escrito em Python3.
 - Açai : é uma Caixa Registradora de linha de comando completa,escrita em C ANSI.
 
 ## Como usar
