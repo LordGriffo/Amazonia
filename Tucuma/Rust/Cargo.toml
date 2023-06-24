@@ -2,11 +2,10 @@
 name = "Rust"
 version = "0.1.0"
 edition = "2021"
-version:
-authors:
-description:
-license:
-repository:
+authors = 
+description = 
+license = 
+repository =
 
 
 [profile.release]
