@@ -42,7 +42,7 @@ git clone https://github.com/LordGriffo/Amazonia.git
 As contribuições são bem-vindas! Se você deseja melhorar este software, sinta-se à vontade para enviar um pull request.
 
 ## Contribuidores
-![](https://raw.githubusercontent.com/LordGriffo/Amazonia/main/CONTRIBUTORS)
+![](https://raw.githubusercontent.com/LordGriffo/Amazonia/main/CONTRIBUTORS.txt)
 
 ## Licença
 GNU GENERAL PUBLIC LICENSE v3
