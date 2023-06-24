@@ -20,7 +20,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
 - Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer!
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens!
-
+- Tucumã : é um conjunto de templates para Projetos Futuros!
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
 
