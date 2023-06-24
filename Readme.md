@@ -22,6 +22,8 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens!
 - Tucumã : é um conjunto de templates para Projetos Futuros!
 - Jaboticaba : é um jogo da forca escrito em PYTHON3.
+- Açai : é uma Caixa Registradora de linha de comando completa,escrita em C ANSI.
+
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
 
