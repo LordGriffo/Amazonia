@@ -18,11 +18,13 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Cacau: são utilidades de linha de comando escritas em C++.
 - Cagaita: é uma utilidade de linha de comando escrita em C++ para criar senhas com 8, 16, 32, 64 ou 8192 caracteres.
 - Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
-- Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer!
-- Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens!
-- Tucumã : é um conjunto de templates para Projetos Futuros!
+- Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer.
+- Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens.
+- Tucumã : é um conjunto de templates para Projetos Futuros.
 - Jaboticaba : é um jogo da forca escrito em Python3.
 - Açai : é uma Caixa Registradora de linha de comando completa,escrita em C ANSI.
+- Araça : é uma versão minima do tree porem colorizada,escrito em C++.
+- Taperebá : é uma construção minima de Socket,tanto client quanto server para projetos iniciais de redes escrito em C++.
 
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
