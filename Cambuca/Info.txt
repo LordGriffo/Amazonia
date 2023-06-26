@@ -29,20 +29,20 @@ Rust:
     Certifique-se de ter o cargo instalado, o gerenciador de pacotes do Rust.
     Crie um novo projeto Rust usando o seguinte comando no terminal:
 
-    arduino
+    
 
 cargo new meu_modulo
 
 Abra o arquivo Cargo.toml gerado no diretório do projeto e adicione a seguinte linha sob a seção [dependencies]:
 
-makefile
+
 
 linux_kernel_module = "0.4"
 
 Substitua o arquivo src/main.rs pelo código fornecido em Rust.
 No diretório do projeto, execute o seguinte comando para compilar o módulo:
 
-arduino
+
 
     cargo build --release
 
