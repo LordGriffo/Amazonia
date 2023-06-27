@@ -16,7 +16,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Caju: é uma utilidade de linha de comando escrita em C++ para exibir um placar (scoreboard) na interface de linha de comando.
 - Camucamu: é uma utilidade de linha de comando escrita em C++ para controle temporário de inventário.
 - Cacau: são utilidades de linha de comando escritas em C++.
-- Cagaita: é uma utilidade de linha de comando escrita em C++ para criar senhas com 8, 16, 32, 64 ou 8192 caracteres.
+- Cagaita: é uma utilidade de linha de comando escrita em C para criar senhas com 8, 16, 32, 64 ou 8192 caracteres.
 - Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
 - Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer.
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens.
