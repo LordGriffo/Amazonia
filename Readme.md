@@ -27,6 +27,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Taperebá : é uma construção minima de Socket,tanto client quanto server para projetos iniciais de redes escrito em C++.
 - Maracujá : é uma mini construção de Headers/Libs para C e C++ para usar em outros projetos.
 - Cambuca : é um Template de Modulo para o Kernel Linux escrito em C,C++ e Rust
+- Graviola : é um conjunto de templates para empacotamento dos pacotes de algumas distros 
 
 ## Como usar
 1. Faça o download ou clone o repositório do Amazonia.
