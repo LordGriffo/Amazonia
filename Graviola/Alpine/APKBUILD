@@ -1,0 +1,30 @@
+# Exemplo de arquivo APKBUILD para criar um pacote no Alpine Linux
+
+pkgname=meu-pacote
+pkgver=1.0
+pkgrel=0
+pkgdesc="Descrição do meu pacote"
+url="https://exemplo.com/meu-pacote"
+license="GPL-3.0-or-later"
+arch="all"
+depends=""
+makedepends=""
+source="https://exemplo.com/meu-pacote-$pkgver.tar.gz"
+
+builddir="$srcdir/meu-pacote-$pkgver"
+
+build() {
+  cd "$builddir"
+  # Comandos de configuração e compilação aqui
+  ./configure
+  make
+}
+
+package() {
+  cd "$builddir"
+  make DESTDIR="$pkgdir/" install
+}
+
+# Informações adicionais
+# Você pode adicionar mais seções conforme necessário
+

@@ -1,0 +1,28 @@
+# Exemplo de arquivo template para criar um pacote no Void Linux
+
+pkgname=meu-pacote
+version=1.0
+revision=1
+maintainer="Seu Nome <seu@email.com>"
+short_desc="Descrição do meu pacote"
+license="GPL-3.0-or-later"
+homepage="https://exemplo.com/meu-pacote"
+distfiles="https://exemplo.com/meu-pacote-$version.tar.gz"
+checksum=1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+
+do_extract() {
+    tar xf $XBPS_DISTDIR/meu-pacote-$version.tar.gz
+}
+
+do_build() {
+    cd $srcdir/meu-pacote-$version
+    # Comandos de configuração e compilação aqui
+    ./configure
+    make
+}
+
+do_install() {
+    cd $srcdir/meu-pacote-$version
+    make DESTDIR=$DESTDIR install
+}
+

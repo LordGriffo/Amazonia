@@ -1,0 +1,13 @@
+#dpkg-deb --build 
+Package: Name of package
+Version: Version of the package
+Maintainer: Name Lastname <email@domain>
+Architecture: Supported target machine architecture
+Description: Short description of the package
+
+Section: Package classification like admin, database, kernel, utils
+Priority: Whether the package is optional or required
+Essential: Whether the package is always required
+Depends: List other dependent packages like libc6 (>= 2.2.4-4)
+Homepage: URL of the website associated with the package
+Package-Type: Indicate the types, like deb or udeb, for example

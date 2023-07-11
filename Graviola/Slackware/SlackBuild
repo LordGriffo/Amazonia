@@ -1,0 +1,49 @@
+#!/bin/sh
+
+# Exemplo de arquivo SlackBuild para criar um pacote no Slackware
+
+PRGNAM=meu-pacote
+VERSION=1.0
+BUILD=${BUILD:-1}
+TAG=${TAG:-_SBo}
+
+CWD=$(pwd)
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i486 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+SRCNAM=meu-pacote-src
+SRCVER=1.0
+SRCFILE=$SRCNAM-$SRCVER.tar.gz
+SRCDIR=$CWD/$PRGNAM-$VERSION
+
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$SRCFILE
+cd $PRGNAM-$VERSION
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+# Comandos de configuração e compilação aqui
+./configure
+make
+
+# Instalação
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+# Comandos de instalação aqui
+make DESTDIR=$PKG install
+
+# Geração do pacote
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+

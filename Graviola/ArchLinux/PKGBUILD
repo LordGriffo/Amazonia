@@ -1,0 +1,28 @@
+# Exemplo de arquivo PKGBUILD para criar um pacote no Arch Linux
+
+pkgname=meu-pacote
+pkgver=1.0
+pkgrel=1
+pkgdesc="Descrição do meu pacote"
+arch=('any')
+url="https://exemplo.com/meu-pacote"
+license=('GPL3')
+depends=('dependencia1' 'dependencia2')
+
+source=("https://exemplo.com/meu-pacote-$pkgver.tar.gz")
+
+build() {
+  cd "$srcdir/meu-pacote-$pkgver"
+  # Comandos de configuração e compilação aqui
+  ./configure
+  make
+}
+
+package() {
+  cd "$srcdir/meu-pacote-$pkgver"
+  make DESTDIR="$pkgdir/" install
+}
+
+# Informações adicionais
+# Você pode adicionar mais seções conforme necessário
+

@@ -1,0 +1,14 @@
+#debuild -S -uc -us
+
+Source: meu-pacote
+Section: misc
+Priority: optional
+Maintainer: Seu Nome <seu@email.com>
+Build-Depends: debhelper-compat (= 13), <outras dependências de construção>
+Standards-Version: 4.5.1
+
+Package: meu-pacote
+Architecture: any
+Depends: <dependências do pacote>
+Description: Descrição do meu pacote
+ Mais informações sobre o pacote.
