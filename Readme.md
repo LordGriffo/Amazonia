@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 1. Faça o download ou clone o repositório do Amazonia.
 2. Personalize o código para atender às suas necessidades.
 3. Aproveite!
