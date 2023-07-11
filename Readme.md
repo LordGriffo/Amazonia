@@ -5,8 +5,8 @@
 O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como base para iniciar projetos. Ele fornece uma estrutura básica e um conjunto de funcionalidades mínimas, permitindo que você adicione seu próprio código e recursos.
 
 ## Recursos
-- Abacaxi: é uma utilidade de linha de comando em C ANSI para verificação do número de CPF brasileiro.
-- Açai : é uma Caixa Registradora de linha de comando completa,escrita em C ANSI.
+- Abacaxi: é uma utilidade para verificação do número de CPF brasileiro.
+- Açai : é uma Caixa Registradora completa,escrita em C ANSI.
 - Araça : é uma versão minima do tree porem colorizada,escrito em C++.
 - Araucária: é um conjunto de microjogos de linha de comando escritos em C++.
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens.
