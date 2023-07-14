@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -std=c11 -O3 -Wall -Wextra
-LDFLAGS =
+CFLAGS = -std=c2x -O3 -Wall -Wextra -pie -pipe
+LDFLAGS = -static
 SRCDIR = src
 OBJDIR = obj
 BINDIR = bin
