@@ -1,0 +1,29 @@
+[package]
+name = "Rust"
+version = "0.1.0"
+edition = "2021"
+authors = "Author"
+description = "Example"
+license = "GPLv3"
+repository = "https://github.com/LordGriffo/Amazonia.git"
+
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = 'abort'
+
+[dependencies]
+
+[dev-dependencies]
+   
+[build-dependencies]
+
+[workspace]
+
+
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html  
