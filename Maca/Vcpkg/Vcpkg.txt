@@ -1,0 +1,24 @@
+O Vcpkg é um gerenciador de pacotes C/C++ desenvolvido pela Microsoft. Ele fornece uma maneira fácil e eficiente de instalar e gerenciar bibliotecas de terceiros em projetos C/C++. O Vcpkg foi projetado para ser multiplataforma e suporta Windows, Linux e macOS.
+
+Aqui estão os principais recursos e passos para usar o Vcpkg:
+
+    Instalação do Vcpkg:
+        Visite o repositório oficial do Vcpkg no GitHub (https://github.com/microsoft/vcpkg) e siga as instruções de instalação para o seu sistema operacional.
+        O Vcpkg é instalado como uma ferramenta de linha de comando, e você pode acessá-lo por meio do terminal ou prompt de comando.
+
+    Instalação de bibliotecas:
+        Com o Vcpkg instalado, você pode pesquisar e instalar bibliotecas de terceiros facilmente.
+        Use o comando vcpkg search para procurar por bibliotecas disponíveis. Por exemplo, vcpkg search openssl procurará a biblioteca OpenSSL.
+        Use o comando vcpkg install para instalar uma biblioteca específica. Por exemplo, vcpkg install openssl instalará a biblioteca OpenSSL.
+        O Vcpkg cuidará de baixar, compilar e instalar a biblioteca, lidando com qualquer dependência necessária.
+
+    Integração com projetos:
+        O Vcpkg permite que você integre facilmente as bibliotecas instaladas em seus projetos.
+        Configure seu sistema de compilação (por exemplo, CMake ou Makefile) para incluir as informações e caminhos corretos das bibliotecas do Vcpkg.
+        O Vcpkg fornece uma opção de comando --triplet para especificar a plataforma e o conjunto de ferramentas a serem usados. Por exemplo, vcpkg install openssl --triplet x64-windows instala a versão para Windows de 64 bits do OpenSSL.
+
+    Atualização e remoção de bibliotecas:
+        Você pode atualizar bibliotecas instaladas usando o comando vcpkg upgrade.
+        Para remover uma biblioteca, use o comando vcpkg remove.
+
+O Vcpkg possui um repositório extenso de bibliotecas disponíveis para instalação e é amplamente utilizado na comunidade C/C++. Ele facilita a tarefa de gerenciar dependências em projetos, permitindo que você se concentre no desenvolvimento do software em vez de lidar com a configuração manual de bibliotecas de terceiros. Consulte a documentação oficial do Vcpkg para obter mais informações detalhadas sobre como usá-lo em seu projeto.

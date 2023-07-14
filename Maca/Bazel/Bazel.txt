@@ -1,0 +1,28 @@
+O Bazel é um sistema de construção e empacotamento desenvolvido pelo Google. Ele fornece uma infraestrutura escalável e distribuída para compilação e teste de software. O Bazel suporta várias linguagens de programação, incluindo C/C++, Java, Python e muitas outras. Ele é projetado para ser altamente eficiente, garantindo builds rápidos e reprodutíveis.
+
+Aqui estão os principais conceitos e etapas para usar o Bazel em seu projeto:
+
+    Instalação do Bazel:
+        Visite o site oficial do Bazel (https://bazel.build/) e siga as instruções de instalação para o seu sistema operacional.
+        O Bazel é instalado como uma ferramenta de linha de comando, e você pode acessá-lo por meio do terminal ou prompt de comando.
+
+    Configuração do projeto:
+        No diretório raiz do seu projeto, crie um arquivo chamado WORKSPACE. Este arquivo é usado pelo Bazel para configurar o projeto.
+        Dentro do arquivo WORKSPACE, você pode especificar as dependências do seu projeto, incluindo bibliotecas externas.
+        O Bazel suporta várias formas de especificar dependências, como baixar pacotes externos ou usar diretamente código-fonte de outros projetos.
+
+    Descrição do build:
+        No diretório de cada pacote ou módulo do seu projeto, você deve criar um arquivo de descrição de build. Esse arquivo pode ter o nome BUILD ou BUILD.bazel.
+        Dentro do arquivo de descrição de build, você define as regras e as dependências para a compilação desse pacote ou módulo.
+        O Bazel usa uma linguagem de configuração chamada Starlark para descrever as regras de compilação e dependências do projeto.
+
+    Compilação e execução:
+        Use o comando bazel build <target> para compilar o código-fonte do seu projeto.
+        Os alvos podem ser especificados usando o nome do pacote, do módulo ou de um arquivo específico.
+        Use o comando bazel run <target> para executar um binário compilado pelo Bazel.
+
+    Outras operações:
+        O Bazel oferece uma ampla variedade de operações, como testes, limpeza, depuração e muito mais.
+        Consulte a documentação oficial do Bazel para obter informações detalhadas sobre essas operações e recursos avançados.
+
+O Bazel é amplamente utilizado em grandes projetos de software e é conhecido por sua escalabilidade e desempenho. Ele oferece a capacidade de construir projetos distribuídos e paralelos, gerenciando automaticamente as dependências e garantindo builds consistentes e reprodutíveis em diferentes ambientes. O Bazel é altamente configurável e flexível, permitindo personalizar as regras de construção de acordo com as necessidades do projeto.

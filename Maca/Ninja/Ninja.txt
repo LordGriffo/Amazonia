@@ -1,0 +1,22 @@
+O Ninja é uma ferramenta de construção de software rápida e leve, projetada para trabalhar em conjunto com arquivos de descrição de compilação, como o CMake. O Ninja oferece um desempenho superior em comparação com outras ferramentas de construção tradicionais, como o Make. Aqui estão os passos básicos para implantar o Ninja Build no seu software:
+
+Passo 1: Instalação do Ninja
+
+    Visite o site oficial do Ninja (https://ninja-build.org/) e siga as instruções de instalação específicas para o seu sistema operacional.
+    Certifique-se de que o Ninja esteja instalado corretamente, digitando ninja --version no terminal ou prompt de comando. Você deve ver a versão do Ninja instalada.
+
+Passo 2: Configuração do CMake
+
+    Certifique-se de que você já tenha um arquivo CMakeLists.txt configurado para o seu projeto.
+    Abra um terminal ou prompt de comando e navegue até o diretório raiz do seu projeto.
+    Crie uma pasta chamada "build" (ou qualquer nome de sua escolha) para armazenar os arquivos gerados pelo CMake.
+    Execute o comando cmake -G Ninja -B build . para gerar os arquivos de compilação usando o Ninja.
+
+Passo 3: Compilação e construção
+
+    Ainda no terminal, navegue até a pasta "build" com o comando cd build.
+    Execute o comando ninja para iniciar o processo de compilação e construção do seu software.
+    O Ninja usará as regras de compilação e dependências definidas pelo CMake para compilar apenas os arquivos necessários.
+    Dependendo do tamanho do seu projeto, esse processo pode levar algum tempo.
+
+Após a conclusão desses passos, você deve ter seu software compilado e pronto para uso. O Ninja oferece uma abordagem eficiente e paralela para a compilação, o que pode melhorar significativamente o tempo de compilação do seu projeto. Além disso, o Ninja é compatível com várias plataformas e pode ser facilmente integrado a outros fluxos de trabalho de construção.

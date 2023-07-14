@@ -23,6 +23,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Graviola : é um conjunto de templates para empacotar softwares para algumas distros (Linux)
 - Guaraná: é uma utilidade de linha de comando escrita em C++ para copiar recursivamente arquivos e diretórios.
 - Jaboticaba : é um jogo da forca escrito em Python3.
+- Maca (Peruana) : é um conjunto de Templates de "Builders" para Linguagem C & C++ entre outras...
 - Maracujá : é uma mini construção de Headers/Libs para C e C++ para usar em outros projetos.
 - Pitanga: é uma utilidade de linha de comando escrita em C++ para exibir os números sequenciais da Mega Sena em um arquivo.
 - Santol  : é uma utilidade de linha de comando escrita em C++ para Calcular o Numero mais preciso de Pi que o Padrão do C++ pode Fazer.

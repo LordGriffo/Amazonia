@@ -1,0 +1,35 @@
+O Conan é uma ferramenta de gerenciamento de pacotes C/C++ que facilita a integração e o uso de bibliotecas de terceiros em seu projeto. Ele permite que você baixe, compile, empacote e gerencie dependências de forma eficiente. Aqui estão os passos básicos para implantar o Conan no seu software:
+
+Passo 1: Instalação do Conan
+
+    Visite o site oficial do Conan (https://conan.io/downloads.html) e siga as instruções de instalação específicas para o seu sistema operacional.
+    Certifique-se de que o Conan esteja instalado corretamente, digitando conan --version no terminal ou prompt de comando. Você deve ver a versão do Conan instalada.
+
+Passo 2: Configuração do arquivo conanfile.txt
+
+    No diretório raiz do seu projeto, crie um arquivo chamado conanfile.txt (ou conanfile.py) para descrever as dependências do seu projeto.
+    Dentro do arquivo conanfile.txt, liste as bibliotecas que você deseja incluir, especificando o nome e a versão.
+    Você também pode definir outras opções, como as opções de compilação e os requisitos do sistema.
+    Aqui está um exemplo básico de um conanfile.txt:
+
+vbnet
+
+[requires]
+library1/1.0.0
+library2/2.3.1
+
+[options]
+library1:shared=True
+
+Passo 3: Instalação e gerenciamento de dependências
+
+    No terminal ou prompt de comando, navegue até o diretório raiz do seu projeto.
+    Execute o comando conan install . para resolver e baixar as dependências listadas no arquivo conanfile.txt.
+    O Conan criará uma pasta chamada .conan no seu projeto, onde armazenará as bibliotecas e os arquivos relacionados.
+
+Passo 4: Integração das dependências no seu projeto
+
+    Após a instalação das dependências, você pode usar as bibliotecas incluídas em seu projeto.
+    Configure seu sistema de compilação (CMake, Makefile, Ninja, etc.) para incluir as informações e caminhos corretos das dependências baixadas pelo Conan.
+
+O Conan oferece suporte a várias plataformas, gerenciamento de versões, opções de compilação condicional, integração com sistemas de compilação populares e muito mais. Você pode consultar a documentação oficial do Conan (https://docs.conan.io/) para obter informações mais detalhadas e avançadas sobre como usar e aproveitar ao máximo essa poderosa ferramenta de gerenciamento de pacotes.
