@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -O3 -pipe -v -std=c++23 -Wall -Wextra -pedantic -march=native -mtune=native
+CFLAGS = -O3 -pipe -v -std=c++23 -Wall -Wextra -pedantic -march=native -mtune=native -pie
 LDFLAGS = -static -lstdc++
 
 SRCDIR = src
