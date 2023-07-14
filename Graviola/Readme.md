@@ -14,7 +14,7 @@ cd meu-software
 
     Crie um arquivo de descrição do pacote chamado "APKBUILD". Este arquivo contém as informações sobre o pacote, como nome, versão, dependências, etc. Aqui está um exemplo mínimo de APKBUILD:
 
-makefile
+
 
 pkgname=meu-software
 pkgver=1.0.0
@@ -65,7 +65,6 @@ cd meu-software
 
     Crie um arquivo de descrição do pacote chamado "PKGBUILD". Este arquivo contém as informações sobre o pacote, como nome, versão, dependências, etc. Aqui está um exemplo mínimo de PKGBUILD:
 
-makefile
 
 pkgname=meu-software
 pkgver=1.0.0
@@ -150,7 +149,6 @@ Lembre-se de substituir "meu-software.deb" pelo nome do pacote gerado.
 Este é um exemplo básico de como empacotar um software para o Debian. Dependendo da complexidade do seu software e das suas necessidades, pode ser necessário adicionar mais informações e personalizar o processo de empacotamento. Você pode consultar a documentação oficial do Debian para obter mais detalhes sobre o processo de criação de pacotes (.deb)
 
 
-
 #Slackware
 
 Para empacotar um software para o Slackware, você precisará criar um pacote no formato ".txz", que é o formato de pacote usado pelo gerenciador de pacotes do Slackware, o pkgtools.
@@ -172,7 +170,6 @@ cp /caminho/para/meu-software.bin meu-software/
 
     Crie um arquivo de descrição do pacote chamado "slack-desc". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, etc. Aqui está um exemplo mínimo do arquivo "slack-desc":
 
-makefile
 
 meu-software: 
 meu-software (Descrição do meu software)
