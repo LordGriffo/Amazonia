@@ -1,6 +1,6 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -O3 -Wall -Wextra
-LDFLAGS =
+CXXFLAGS = -std=c++23 -pipe -pie -O3 -Wall -Wextra
+LDFLAGS = -static -libstdc++
 SRCDIR = src
 OBJDIR = obj
 BINDIR = bin
