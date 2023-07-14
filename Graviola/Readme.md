@@ -8,7 +8,6 @@ Aqui está um exemplo básico de como empacotar um software para o Alpine Linux:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
@@ -31,7 +30,6 @@ Certifique-se de preencher as informações corretas para o seu software.
 
     Coloque os arquivos do seu software na mesma estrutura de diretórios. Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o dentro de um diretório "bin" dentro do diretório "meu-software".
 
-bash
 
 mkdir bin
 cp /caminho/para/meu-software.bin bin/
@@ -43,8 +41,6 @@ abuild -r
 Esse comando irá compilar o pacote e gerar o arquivo APK no diretório "packages" dentro do diretório de construção.
 
     Agora você tem o pacote APK do seu software pronto para uso. Você pode instalá-lo no Alpine Linux usando o comando "apk" ou distribuí-lo para outros usuários.
-
-bash
 
 apk add ./caminho/para/o-pacote.apk
 
@@ -63,7 +59,6 @@ Aqui está um exemplo básico de como empacotar um software para o Arch Linux:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
@@ -86,7 +81,6 @@ Certifique-se de preencher as informações corretas para o seu software.
 
     Crie um diretório chamado "src" e coloque os arquivos do seu software dentro dele. Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o dentro do diretório "src".
 
-bash
 
 mkdir src
 cp /caminho/para/meu-software.bin src/
@@ -116,14 +110,12 @@ Aqui está um exemplo básico de como empacotar um software para o Debian:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
 
     Crie um arquivo de descrição do pacote chamado "debian/control". Este arquivo contém as informações sobre o pacote, como nome, versão, dependências, etc. Aqui está um exemplo mínimo do arquivo "control":
 
-vbnet
 
 Package: meu-software
 Version: 1.0.0
@@ -137,14 +129,12 @@ Certifique-se de preencher as informações corretas para o seu software.
 
     Crie um diretório chamado "debian" e coloque os arquivos do seu software dentro dele. Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o dentro do diretório "debian".
 
-bash
 
 mkdir debian
 cp /caminho/para/meu-software.bin debian/
 
     Execute o comando "dpkg-deb --build" para criar o pacote.
 
-css
 
 dpkg-deb --build meu-software
 
@@ -152,7 +142,6 @@ Esse comando irá compilar o pacote e gerar o arquivo ".deb" no diretório atual
 
     Agora você tem o pacote do seu software pronto para uso. Você pode instalá-lo no Debian usando o comando "dpkg" ou distribuí-lo para outros usuários.
 
-css
 
 sudo dpkg -i meu-software.deb
 
@@ -172,14 +161,12 @@ Aqui está um exemplo básico de como empacotar um software para o Slackware:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
 
     Coloque os arquivos do seu software dentro do diretório "meu-software". Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o diretamente dentro do diretório "meu-software".
 
-bash
 
 cp /caminho/para/meu-software.bin meu-software/
 
@@ -220,20 +207,17 @@ Aqui está um exemplo básico de como empacotar um software para o Fedora:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
 
     Coloque os arquivos do seu software dentro do diretório "meu-software". Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o diretamente dentro do diretório "meu-software".
 
-bash
 
 cp /caminho/para/meu-software.bin meu-software/
 
     Crie um arquivo de descrição do pacote chamado "meu-software.spec". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "meu-software.spec":
 
-perl
 
 Name:       meu-software
 Version:    1.0.0
@@ -276,7 +260,6 @@ Esse comando irá compilar o pacote e gerar o arquivo RPM no diretório "rpmbuil
 
     Agora você tem o pacote do seu software pronto para uso. Você pode instalá-lo no Fedora usando o comando "dnf" ou distribuí-lo para outros usuários.
 
-arduino
 
 sudo dnf install rpmbuild/RPMS/seu-software-versao-release.arquitetura.rpm
 
@@ -296,14 +279,12 @@ Aqui está um exemplo básico de como empacotar um software para o Gentoo:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
 
     Crie um arquivo chamado "meu-software-1.0.0.ebuild". Esse arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "meu-software-1.0.0.ebuild":
 
-makefile
 
 EAPI=7
 
@@ -348,7 +329,6 @@ Esse comando irá criar o pacote e gerar o arquivo Manifest para o pacote no dir
 
     Agora você tem o pacote do seu software pronto para uso. Você pode instalá-lo no Gentoo Linux usando o comando "emerge" ou distribuí-lo para outros usuários.
 
-css
 
 sudo emerge --ask meu-software
 
@@ -368,20 +348,17 @@ Aqui está um exemplo básico de como empacotar um software para o Void Linux:
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-software".
 
-bash
 
 mkdir meu-software
 cd meu-software
 
     Coloque os arquivos do seu software dentro do diretório "meu-software". Por exemplo, se o seu software consiste em um único arquivo binário chamado "meu-software.bin", coloque-o diretamente dentro do diretório "meu-software".
 
-bash
 
 cp /caminho/para/meu-software.bin meu-software/
 
     Crie um arquivo de descrição do pacote chamado "template". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "template":
 
-makefile
 
 pkgname="meu-software"
 version="1.0.0"
@@ -401,7 +378,6 @@ Certifique-se de preencher as informações corretas para o seu software.
 
     Execute o comando "xbps-create" para criar o pacote XBPS.
 
-arduino
 
 xbps-create -A noarch -n meu-software-1.0.0_1 -s "Descrição do meu software" template
 
@@ -431,14 +407,12 @@ Aqui está um exemplo básico de como criar um pacote de código-fonte para o Ar
 
     Crie um diretório para o pacote. Vamos supor que o nome do pacote seja "meu-pacote".
 
-bash
 
 mkdir meu-pacote
 cd meu-pacote
 
     Crie um arquivo chamado "PKGBUILD" no diretório do pacote. Esse arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, comandos de compilação, etc. Aqui está um exemplo mínimo do arquivo "PKGBUILD":
 
-bash
 
 pkgname=meu-pacote
 pkgver=1.0.0
@@ -475,7 +449,6 @@ Isso irá compilar o pacote e gerar o pacote binário correspondente no diretór
 
     Agora você tem o pacote de código-fonte pronto para uso. Você pode instalá-lo no Arch Linux usando o comando "pacman" ou distribuí-lo para outros usuários.
 
-arduino
 
 sudo pacman -U meu-pacote-1.0.0-1-any.pkg.tar.zst
 
@@ -493,14 +466,12 @@ Aqui está um exemplo básico de como criar um pacote de código-fonte para o De
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-pacote".
 
-bash
 
 mkdir meu-pacote
 cd meu-pacote
 
     Crie um arquivo chamado "debian/control". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "control":
 
-makefile
 
 Source: meu-pacote
 Section: misc
@@ -521,7 +492,6 @@ Certifique-se de preencher as informações corretas para o seu pacote, incluind
 
     Crie um arquivo chamado "debian/rules". Este arquivo contém as regras para compilar e instalar o seu pacote. Aqui está um exemplo mínimo do arquivo "rules":
 
-makefile
 
 #!/usr/bin/make -f
 
@@ -536,7 +506,6 @@ Esse comando irá criar o pacote de código-fonte no formato ".dsc" e outros arq
 
     Agora você tem o pacote de código-fonte pronto para uso. Você pode construir o pacote binário usando o comando "pbuilder" ou distribuí-lo para outros usuários.
 
-bash
 
 cd ..
 pbuilder --build meu-pacote_versione.dsc
@@ -556,14 +525,12 @@ Aqui está um exemplo básico de como criar um pacote de código-fonte para o Fe
 
     Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-pacote".
 
-bash
 
 mkdir meu-pacote
 cd meu-pacote
 
     Crie um arquivo chamado "meu-pacote.spec". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "meu-pacote.spec":
 
-ini
 
 Name:       meu-pacote
 Version:    1.0.0
@@ -604,7 +571,6 @@ Certifique-se de preencher as informações corretas para o seu pacote, incluind
 
     Execute o comando "rpmbuild" para criar o pacote de código-fonte.
 
-bash
 
 rpmbuild -bs meu-pacote.spec
 
@@ -612,7 +578,7 @@ Esse comando irá criar o pacote de código-fonte no formato SRPM (Source RPM) n
 
     Agora você tem o pacote de código-fonte pronto para uso. Você pode construir o pacote binário usando o comando "mock" ou distribuí-lo para outros usuários.
 
-bash
+
 
 mock -r fedora-XX-x86_64 ~/rpmbuild/SRPMS/meu-pacote-1.0.0-1.fcXX.src.rpm
 
