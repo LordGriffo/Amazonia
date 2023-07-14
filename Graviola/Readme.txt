@@ -583,4 +583,72 @@ Lembre-se de substituir "fedora-XX-x86_64" pela versão do Fedora em que você e
 
 Este é um exemplo básico de como criar um pacote de código-fonte para o Fedora. Dependendo da complexidade do seu código-fonte e das suas necessidades, pode ser necessário adicionar mais informações e personalizar o processo de construção do pacote. Consulte a documentação oficial do Fedora para obter mais detalhes sobre o processo de criação de pacotes de código-fonte usando SPEC files.
 
+#Gentoo
+Para criar um pacote de código-fonte para o Gentoo Linux, você precisa criar um arquivo de ebuild, que contém as informações e instruções necessárias para compilar e empacotar o código-fonte.
 
+Aqui está um exemplo básico de como criar um pacote de código-fonte para o Gentoo:
+
+    Certifique-se de ter o ambiente de desenvolvimento configurado no seu sistema.
+
+    Crie uma estrutura de diretórios para o pacote. Vamos supor que o nome do seu pacote seja "meu-pacote".
+
+bash
+
+mkdir meu-pacote
+cd meu-pacote
+
+    Crie um arquivo chamado "meu-pacote-1.0.0.ebuild". Este arquivo contém as informações sobre o pacote, como nome, versão, descrição, dependências, etc. Aqui está um exemplo mínimo do arquivo "meu-pacote-1.0.0.ebuild":
+
+bash
+
+EAPI=7
+
+DESCRIPTION="Descrição do meu pacote"
+HOMEPAGE="https://www.exemplo.com"
+SRC_URI="https://www.exemplo.com/meu-pacote-1.0.0.tar.gz"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64"
+IUSE=""
+
+DEPEND=""
+RDEPEND="${DEPEND}"
+
+src_prepare() {
+    default
+}
+
+src_configure() {
+    econf
+}
+
+src_compile() {
+    emake
+}
+
+src_install() {
+    emake DESTDIR="${D}" install
+}
+
+Certifique-se de preencher as informações corretas para o seu pacote, incluindo a URL de download, dependências, etc.
+
+    Coloque o código-fonte do seu pacote no diretório do pacote. Certifique-se de que o código-fonte esteja organizado corretamente e que todos os arquivos necessários estejam presentes.
+
+    Agora, você pode criar o pacote usando o comando "ebuild".
+
+bash
+
+ebuild meu-pacote-1.0.0.ebuild manifest
+
+Isso irá criar o pacote e gerar o arquivo Manifest para o pacote no diretório atual.
+
+    Agora você tem o pacote de código-fonte pronto para uso. Você pode instalá-lo no Gentoo Linux usando o comando "emerge" ou distribuí-lo para outros usuários.
+
+bash
+
+emerge -av meu-pacote
+
+Lembre-se de substituir "meu-pacote" pelo nome do pacote correspondente ao arquivo ebuild.
+
+Este é um exemplo básico de como criar um pacote de código-fonte para o Gentoo Linux. Dependendo da complexidade do seu código-fonte e das suas necessidades, pode ser necessário adicionar mais informações e personalizar o processo de compilação. Consulte a documentação oficial do Gentoo Linux para obter mais detalhes sobre o processo de criação de pacotes ebuild.
