@@ -1,0 +1,14 @@
+# Makefile para o programa "Hello, World!" em NASM (32 bits)
+
+# Nome do arquivo de saída
+OUTPUT = hello
+
+# Arquivo NASM
+ASM_SOURCE = src/Template32.asm
+
+all:
+    nasm -f elf $(ASM_SOURCE)
+    ld -m elf_i386 -o $(OUTPUT) $(ASM_SOURCE:.asm=.o)
+
+clean:
+    rm -f $(OUTPUT) $(ASM_SOURCE:.asm=.o)
