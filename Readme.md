@@ -16,7 +16,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Caju: é uma utilidade de linha de comando escrita em C++ para exibir um placar (scoreboard) na interface de linha de comando.
 - Cambuca : é um Template de Modulo para o Kernel Linux escrito em C,C++ e Rust
 - Cambuci: é uma utilidade de linha de comando escrita em C++ para exibir o conteúdo de arquivos de texto.
-- Cambuí: é uma utilidade de linha de comando escrita em C++ para visualizar o monitor do sistema operacional.
+- Cambuí: utilitarios exoticos de linha de comando para sistema operacional.
 - Camucamu: é uma utilidade de linha de comando escrita em C++ para controle temporário de inventário.
 - Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
 - Gabiroba: é uma utilidade de linha de comando escrita em C++ para exibir o conteúdo de arquivos de texto, mas sem exibir números de linha.
