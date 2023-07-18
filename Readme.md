@@ -19,6 +19,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Cambuí: utilitarios exoticos de linha de comando para sistema operacional.
 - Camucamu: é uma utilidade de linha de comando escrita em C++ para controle temporário de inventário.
 - Canistel: é uma utilidade de linha de comando escrita em Rust para contar o próximo número primo em um intervalo.
+- Cupuaçu: é um conjunto de templates para Criar/Configurar Repositorios em algumas Distribuiçoes!
 - Gabiroba: é uma utilidade de linha de comando escrita em C++ para exibir o conteúdo de arquivos de texto, mas sem exibir números de linha.
 - Graviola : é um conjunto de templates para empacotar softwares para algumas distros (Linux)
 - Guaraná: é uma utilidade de linha de comando escrita em C++ para copiar recursivamente arquivos e diretórios.
