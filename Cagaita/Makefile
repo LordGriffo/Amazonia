@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c2x -static -O3 -g3 -pipe -v -pedantic
+CFLAGS = -Wall -Wextra -std=c2x -static -O3 -g3 -pipe -v -pedantic -pie -fPIC
 
 SRC_DIR = src
 OBJ_DIR = obj
