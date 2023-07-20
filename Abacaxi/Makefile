@@ -1,13 +1,13 @@
 CC = g++
-CFLAGS = -O3 -pipe -v -std=c++23 -Wall -Wextra -pedantic -march=native -mtune=native
-LDFLAGS = -static -lstdc++
+CFLAGS = -O3 -pipe -v -std=c2x -Wall -Wextra -pedantic -march=native -mtune=native
+LDFLAGS = -static
 
 SRCDIR = src
 OBJDIR = obj
 BINDIR = bin
 
-SRCS = $(wildcard $(SRCDIR)/*.cpp)
-OBJS = $(patsubst $(SRCDIR)/%.cpp, $(OBJDIR)/%.o, $(SRCS))
+SRCS = $(wildcard $(SRCDIR)/*.c)
+OBJS = $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRCS))
 TARGET = $(BINDIR)/abacaxi
 
 LIBDIR = src/lib
