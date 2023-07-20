@@ -1,4 +1,4 @@
-CC = g++
+CC = gcc
 CFLAGS = -O3 -pipe -v -std=c2x -Wall -Wextra -pedantic -march=native -mtune=native
 LDFLAGS = -static
 
