@@ -1,0 +1,28 @@
+O Gemfile em si não é um programa que você instala. É um arquivo que descreve as dependências de gemas (bibliotecas Ruby) que seu projeto precisa para funcionar corretamente. Para instalar as gemas especificadas em um Gemfile, você usa o Bundler, uma ferramenta de gerenciamento de dependências Ruby.
+
+Aqui estão os passos para instalar as gemas listadas em um Gemfile:
+
+    Certifique-se de ter o Ruby instalado em seu sistema. Você pode verificar se o Ruby está instalado digitando o seguinte comando no terminal:
+
+ruby -v
+
+Se o Ruby não estiver instalado, você precisará instalá-lo primeiro. Você pode fazer o download da versão mais recente do Ruby em https://www.ruby-lang.org/.
+
+Instale o Bundler (caso ainda não tenha sido instalado) usando o comando gem:
+
+gem install bundler
+
+Navegue até o diretório do seu projeto onde o arquivo Gemfile está localizado usando o terminal:
+
+
+cd /caminho/do/seu/projeto
+
+Execute o seguinte comando para instalar as gemas listadas no Gemfile:
+
+    bundle install
+
+    O Bundler lerá o Gemfile e instalará todas as gemas especificadas, bem como suas dependências, no ambiente do projeto.
+
+    Após a conclusão do comando bundle install, você terá todas as gemas instaladas e prontas para serem usadas em seu projeto Ruby.
+
+Agora você pode usar as gemas em seu código Ruby, e o Bundler garantirá que as versões corretas sejam carregadas para o seu projeto. Certifique-se de incluir a linha require 'bundler/setup' no início do seu código Ruby para configurar corretamente o ambiente do Bundler.

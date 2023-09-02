@@ -1,0 +1,14 @@
+# Gemfile
+
+source 'https://rubygems.org'
+
+# Gems Groups
+
+group :development do
+gem 'digest'
+gem 'date'
+gem 'bundle'
+gem 'rake'
+gem 'find'
+gem 'awesome_gem'
+end
