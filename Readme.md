@@ -9,6 +9,7 @@ O Amazonia é um pacote de vários softwares de exemplo que pode ser usado como 
 - Açai : é uma Caixa Registradora completa,escrita em C ANSI.
 - Araça : é uma versão minima do tree porem colorizada,escrito em C++.
 - Araucária: é um conjunto de microjogos de linha de comando escritos em C++.
+- Bacuri : é um conjunto de templates em Ruby de miscellaneous!
 - Buriti : é um conjunto de calculadoras de linha de comandos escrito em varias linguagens.
 - Butiá: é uma utilidade de linha de comando escrita em C++ para mover recursivamente arquivos e diretórios.
 - Cacau: são utilidades de linha de comando escritas em C++.
